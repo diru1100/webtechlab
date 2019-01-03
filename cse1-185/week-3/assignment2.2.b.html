@@ -1,0 +1,55 @@
+<html>
+<head><title> User Registration </title></head>
+<body leftmargin="50" >
+<table cellspacing="2" border="1" align=
+"center" width="90%" height="100%" bgcolor="#add8e6" bordercolor="white">
+<tr>
+  <th align="center" colspan="2"> <h1 align="center"> User Registration </h1>
+  * Required Fields
+</tr>
+<form>
+<tr>
+  <td><label for="fname" > First Name*  </label> <br>
+ <input type="text" value= " Ex: Arjun" id="fname"> </td>
+<td><label for="lname" > Last Name*  </label> <br>
+<input align="left" type="text" value= " Ex: Reddy" id="lname" > </td>
+</tr>
+<tr>
+  <td> <label for="mail" > E-mail*  </label> <br>
+  <input type= "email" id="mail">  </td>
+    <td><label for="code" >  Zip Code*  </label><br>
+    <input type="text" value= " Ex: Rohit" id="code"> </td>
+</tr>
+<tr>
+  <td colspan="2"><label for="uname" > User Name*  </label> <br>
+ <input type="text" value= " Ex: KillerBee" id="uname"> </td>
+</tr>
+<tr>
+<td><label for="pass" > Password*  </label><br> <input type="password"> </td>
+<td><label for="pass" > Confirm Password* </label><br> <input type="password"> </td>
+</tr>
+<tr>
+  <td colspan="2">
+    <label for="music"> What music are you interested in ? </label> <br>
+  <input type="checkbox" id ="music" >  Rock 
+  <input type="checkbox" id ="music" >  Pop
+  <input type="checkbox" id ="music" >  Bluegrass<br>
+  <input type="checkbox" id ="music" >  Blues 
+  <input type="checkbox" id ="music" >  Jazz
+  <input type="checkbox" id ="music" >  Country
+  </td>
+</tr>
+
+<tr>
+  <td  colspan="2"> <label for="offer"> Would you like to receive e-mail notifications on our special offers? </label>  <br> 
+      <input type="radio" value="Yes" name ="offer" > Yes
+      <input type="radio" value="No" name="offer">No
+  </td>
+</tr>     
+<tr>
+<td align="center" colspan="2"> <input type="reset"><input type="button" onclick="alert('Information stored')" value="Submit Form">  </td>
+</tr>   
+</form>
+</table>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE bank SYSTEM "ex.dtd">
+<bank>
+ <account>
+ <acc_no>A-101</acc_no>
+ <branch_name>DOWN TOWN</branch_name>
+ </account>
+ 
+ <account>
+ <acc_no>A-102</acc_no>
+ <branch_name>Perry ridge</branch_name>
+ <balance>500</balance>
+ </account>
+ 
+<account>
+ <acc_no>A-103</acc_no>
+ <branch_name>DOWN TOWN</branch_name>
+ <balance>1000</balance>
+ </account>
+</bank>

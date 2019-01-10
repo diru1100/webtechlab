@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE stustructure[
+  <!ELEMENT student (name+,rollno?,DOB?,address+,course?)>
+  <!ELEMENT name (firstname?,lastname?)>
+  <!ELEMENT firstname (#PCDATA)>
+  <!ELEMENT lastname (#PCDATA)>
+  <!ELEMENT rollno (#PCDATA)>
+  <!ELEMENT DOB (#PCDATA)>
+  <!ELEMENT address (building+,street,city,postalcode)>
+  <!ELEMENT building (#PCDATA)>
+  <!ELEMENT street (#PCDATA)>
+  <!ELEMENT city (#PCDATA)>
+  <!ELEMENT postalcode (#PCDATA)>      
+  <!ELEMENT course (#PCDATA)>
+  ]>
+  
+  <student>
+    <name> 
+      <firstname> Rohit </firstname>
+      <lastname> D </lastname>
+    </name>
+    <rollno> 007 </rollno>
+    <DOB> 0-0-00 </DOB>
+    <address>
+      <building> KK TuwErs </building>
+      <street> mow street </street>
+      <city> cape towm </city>
+      <postalcode> 999999 </postalcode>
+    </address>
+    <course> CSE </course>
+    
+  </student>

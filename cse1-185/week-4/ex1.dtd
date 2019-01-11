@@ -1,0 +1,5 @@
+<!ELEMENT bank (account+)>
+<!ELEMENT account (acc_no,branch_name,balance*)>
+<!ELEMENT acc_no (#PCDATA)>
+<!ELEMENT branch_name (#PCDATA)>
+<!ELEMENT balance (#PCDATA)>

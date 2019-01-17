@@ -1,0 +1,33 @@
+
+information
+{
+    background-color: red;
+    width=100%
+}
+details
+{
+    display:block;
+    margin-bottom: 30pt;
+    margin-left: 0
+}
+firstname
+{
+    color: blue;
+    font-size: 40pt
+}
+lastname
+{
+    color: magenta;
+    font-size: 20pt
+}
+address,phno
+{
+    display: block;
+    color: cyan;
+    margin-left: 20pt
+}
+emailid
+{
+    color:green;
+    background-color:yellow
+}

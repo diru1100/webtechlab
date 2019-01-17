@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="student.xsl"?>
+<information>
+	<user>
+	<name>Rohit</name>
+	<branch>cse</branch>
+	<id>1</id>
+	<email>Rohit@gmail.com</email>
+	</user>
+	
+	<user>
+	<name>Ram</name>
+	<branch>eee</branch>
+	<id>2</id>
+	<email>Ram@gmail.com</email>
+	</user>
+	
+	<user>
+	<name>Krishna</name>
+	<branch>ece</branch>
+	<id>3</id>
+	<email>Krishna@gmail.com</email>
+	</user>
+
+	<user>
+	<name>Priya</name>
+	<branch>mech</branch>
+	<id>4</id>
+	<email>Priya@gmail.com</email>
+	</user>
+
+	<user>
+	<name>Ramya</name>
+	<branch>prod</branch>
+	<id>5</id>
+	<email>Ramya@gmail.com</email>
+	</user>
+
+	<user>
+	<name>Rekha</name>
+	<branch>mca</branch>
+	<id>6</id>
+	<email>Rekha@gmail.com</email>
+	</user>
+
+</information>

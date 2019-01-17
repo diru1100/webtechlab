@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="infm.css" type="text/css"?>
+
+<information>
+<details>
+ <firstname>tina</firstname>
+ <lastname>gupta</lastname>
+ <address>jharkhand</address>
+ <phno>123456</phno>
+ <emailid>tina@gmail.com</emailid>
+</details>
+
+<details>
+ <firstname>mina</firstname>
+ <lastname>mehta</lastname>
+ <address>chandigarh</address>
+ <phno>345678</phno>
+ <emailid>mina@gmail.com</emailid>
+</details>
+
+<details>
+ <firstname>rina</firstname>
+ <lastname>gupta</lastname>
+ <address>simla</address>
+ <phno>891011</phno>
+ <emailid>rina@gmail.com</emailid>
+</details>
+</information>

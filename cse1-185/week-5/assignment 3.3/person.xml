@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="person.xsl"?>
+
+<persons>
+  <person>
+    <name> Rohit </name>
+    <contact type='phone'> 77777777</contact>
+    <contact type='fax'> 9999999</contact>
+  </person>
+  <person>
+    <name> Ram </name>
+    <contact type='mobile'> 434343</contact>
+    <contact type='telex'> 009931</contact>
+  </person>
+</persons>

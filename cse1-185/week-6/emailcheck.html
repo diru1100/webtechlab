@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head><script>
+function myFunction() {
+var x = document.getElementById("myText").value;
+var y=/^[a-z]{1,20}\d{2}\@[a-z]{2,10}\.[a-z]{3}$/;
+if(x.match(y))
+alert(" Valid email ");
+else
+alert("In valid email ");
+}
+</script>
+</head>
+<body>
+<h3>EMAIL VALIDATION </h3>
+ENTER EMAIL :
+<input type="text" id="myText">
+<button onClick="myFunction()">Try it</button>
+<p id="demo"> </p>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<html>
+<head>
+<title> nochange.html</title>
+<style type="text/css" src="pizzzaorder.css">
+</style>
+<script src="pizzaorder.js">
+</script>
+</head>
+<body>
+<form>
+<h3>Pizza order Form</h3>
+<table border="2"><tr>
+<th>Item name</th>
+<th>Price</th>
+<th>Quantity</th>
+</tr>
+<tr>
+<td>Chicken Pizza</td>
+<td>100</td>
+<td> <input type="text" id="cp" size="5"/></td>
+</tr>
+<tr>
+<td>Paneer Pizza</td>
+<td>80</td>
+<td><input type="text" id="pp" size="5"/></td>
+</tr>
+<tr>
+<td>Veg Pizza</td>
+<td>70</td>
+<td><input type="text" id="vp" size="5"/></td>
+</tr>
+</table>
+<!-- create buttons for computation-->
+<p>
+<input type="button" value="totalcost" onclick="computetotal();"/><input type="text" size="5" id="cost" onfocus="this.blur();"/>
+</p>
+<!-- create sumbit and reset buttons-->
+<input type="submit" value="confirm order" onclick="confirmorder();"/>
+<input type="reset" value="Cancel order"/>
+</form>
+</body>
+</html>

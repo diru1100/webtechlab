@@ -1,0 +1,17 @@
+.buttons{
+  display: grid;
+  height: 200px;
+  width: 200px;
+  grid-template-columns: auto auto auto auto;
+  background-color: #AA6C39;
+  padding: 10px;  
+  align-content: space-around;
+}
+
+.textbox{
+  display: block;
+}
+
+#output {
+  grid-column: 1 / span 4;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE>
+<html>
+<head>
+  <link rel="stylesheet" href="calc.css">
+
+</head>
+<body>
+
+<form>
+  <div class="buttons">
+  <input type="text" size="5" id="output"  value=""  onfocus="this.blur();" >
+  <div class="1"><input type="button" id="1" value="1" onclick="keepvalue(this.value);"></div>
+  <div class="2"><input type="button" id="2" value="2" onclick="keepvalue(this.value);"></div>
+  <div class="3"><input type="button" id="3" value="3" onclick="keepvalue(this.value);"></div>
+  <div class="+"><input type="button" id="+" value="+" onclick="keepvalue(this.value);"></div>
+  <div class="4"><input type="button" id="4" value="4" onclick="keepvalue(this.value);"></div>
+  <div class="5"><input type="button" id="5" value="5" onclick="keepvalue(this.value);"></div>
+  <div class="6"><input type="button" id="6" value="6" onclick="keepvalue(this.value);"></div>
+  <div class="-"><input type="button" id="-" value="-" onclick="keepvalue(this.value);"></div>
+  <div class="7"><input type="button" id="7" value="7" onclick="keepvalue(this.value);"></div>
+  <div class="8"><input type="button" id="8" value="8" onclick="keepvalue(this.value);"></div>
+  <div class="9"><input type="button" id="9" value="9" onclick="keepvalue(this.value);"></div>
+  <div class="*"><input type="button" id="*" value="*" onclick="keepvalue(this.value);"></div>
+  <div class="c"><input type="reset" id="c" value="c" onclick=""></div>
+  <div class="0"><input type="button" id="0" value="0" onclick="keepvalue(this.value);"></div>
+  <div class="="><input type="button" id="=" value="=" onclick="basicop(getElementById(output).value);"></div>  
+  <div class="/"><input type="button" id="/" value="/" onclick="keepvalue(this.value);"></div>   
+</div> 
+</form>
+
+ <script src="calc.js"></script>   
+
+
+</body>
+</html>

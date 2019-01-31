@@ -1,0 +1,45 @@
+<html>
+<body>
+<script>
+function function1(){
+var x=document.getElementById("demo").value;
+var y=/^[a-z]{1,20}\@[a-z]{2,8}\.[a-z]{3}$/;
+a=document.getElementById("demo1").value;
+b=/^[a-z]{1,25}$/;
+c=document.getElementById("demo2").value;
+d=/^[0-9]{10}$/;
+if (a.match(b))
+	alert("name is valid");
+else
+	alert("name is invalid");
+if (x.match(y))
+	alert("email is valid");
+else
+	alert("email is inavlid");
+
+if (c.match(d))
+	alert("number is valid");
+else
+	alert("number is inavlid");
+}
+</script>
+<form>
+<table border='3' width='200' cellpadding='10' cellspacing='3'>
+<tr>
+<th>NAME</th>
+<td><input type="text" id="demo1"/></td>
+</tr>
+<tr>
+<th>EMAIL</th>
+<td><input type="text" id="demo"/></td>
+</tr>
+<tr>
+<th>PHONE NO</th>
+<td><input type="text" id="demo2"/></td>
+</tr>
+<tr>
+</table>
+<button type="submit" onclick="function1()">SUBMIT</button></tr>
+</form>
+</body>
+</html>

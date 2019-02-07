@@ -8,9 +8,7 @@
   align-content: space-around;
 }
 
-.textbox{
-  display: block;
-}
+
 
 #output {
   grid-column: 1 / span 4;
